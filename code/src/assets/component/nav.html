@@ -1,0 +1,43 @@
+<nav class="nav hidden">
+    <button class="nav__btn-nav">
+        <span class="nav__btn-nav__item"></span>
+        <span class="nav__btn-nav__item"></span>
+        <span class="nav__btn-nav__item"></span>
+    </button>
+
+    <ul class="nav__group">
+        <li class="nav__group-list">
+            <a href="javascript:void(0);" class="nav__group-list--link" id="newUser">Novo Usuário</a>
+        </li>
+        <li class="nav__group-list">
+            <a href="javascript:void(0);" class="nav__group-list--link" id="editName">Editar Usuário</a>
+        </li>
+        <li class="nav__group-list">
+            <a href="javascript:void(0);" class="nav__group-list--link" id="openHistoric">Consultar Historico</a>
+        </li>
+    </ul>
+
+    <form class="nav__form">
+        <ul class="nav__form__user">
+            <li class="nav__form__user-list hidden" id="userShow">
+                <label class="nav__form__user-list-label" for="name">
+                    <span class="nav__form__user-list-label__span">Nome</span>
+                    <input class="nav__form__user-list-label__input" type="text" id="name">
+                </label>
+                <button class="nav__button">
+                    Salvar
+                </button>
+            </li>
+            <li class="nav__form__user-list hidden" id="userShowEdit">
+                <label class="nav__form_user-list-label" for="name">
+                    <span class="nav__form__user-list-label__span">Novo Nome</span>
+                    <input class="nav__form__user-list-label__input" type="text" id="newName">
+                </label>
+                <button class="nav__button">
+                    Salvar
+                </button>
+            </li>
+        </ul>
+    </form>
+</nav>
+<div class="bg hidden"></div>
